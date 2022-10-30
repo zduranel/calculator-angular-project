@@ -1,0 +1,49 @@
+@import url(./reset.css);
+
+:root {
+    --white: white;
+    --black: black;
+    --white-rgb: 255, 255, 255;
+    --black-rgb: 0, 0, 0;
+    --black100: #050505;
+    --primary-rgb: 55, 55, 55;
+    --secondary-rgb: 169, 220, 253;
+    --tertiary: #3D76AB;
+    --fifth-rgb: 216, 238, 255;
+    --line: #6396C5;
+    --quaternary: #fbfbfb;
+    --gray-rgb: 5, 5, 5;
+    --calculator-bg: linear-gradient(166.34deg, #FEFEFE 0%, #F9F9F9 12.84%, #F3F3F3 32.53%, #E5E5E5 100%);
+    --calculator-bottom-bg: linear-gradient(244.38deg, #9EE8FF 8.14%, #96c2d8 27.9%, #79AFFF 56.94%, #c0c5d3 84.11%);
+    --radius-25: 1.5625rem;
+    --radius-30: 1.875rem;
+    --radius-40: 2.5rem;
+}
+
+/* #2D5FDE   #00123F */
+
+html[data-type="dark"] {
+    --primary-rgb: 251, 251, 251;
+    --secondary-rgb: 27, 106, 156;
+    --fifth-rgb: 0, 54, 97;
+    --calculator-bg: linear-gradient(166.34deg, #373737 0%, #252628 22.9%, #000309 100%);
+    --calculator-bottom-bg: linear-gradient(244.38deg, #255361 8.14%, #2A7DA1 27.9%, #224E91 56.94%, #00123F 84.11%);
+    --line: #3D76AB;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins' ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
